@@ -12,4 +12,10 @@
     // Check connection
     if (!$connection) {
         die("Connection failed: " . mysqli_connect_error());
-    }
+    } 
+    
+    
+    // MARK: - Just to test it out if works.
+    // else {
+    //     echo "It works!";
+    // }
